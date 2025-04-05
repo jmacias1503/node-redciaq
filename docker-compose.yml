@@ -10,7 +10,7 @@ services:
     image: weewx:6.1
     container_name: weewx
     networks:
-      - bridge
+      - node-inter
 networks:
   node-inter:
     driver: bridge
