@@ -1,6 +1,8 @@
 services:
   script:
     build: ./app/
+  weewx:
+    image: weewx:6.1
 networks:
   node-inter:
     driver: bridge
