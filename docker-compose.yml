@@ -1,8 +1,16 @@
 services:
   script:
     build: ./app/
+    container_name: script
+    depends_on:
+      - weewx
+    networks:
+      - node-inter
   weewx:
     image: weewx:6.1
+    container_name: weewx
+    networks:
+      - bridge
 networks:
   node-inter:
     driver: bridge
