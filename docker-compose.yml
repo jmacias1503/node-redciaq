@@ -1,0 +1,6 @@
+services:
+  script:
+    build: ./app/
+networks:
+  node-inter:
+    driver: bridge
