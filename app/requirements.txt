@@ -1,2 +1,2 @@
-mysql-connector-python
+mysql-connector-python==9.2.0
 sqlite3
