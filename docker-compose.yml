@@ -1,3 +1,4 @@
+name: "node-redciaq"
 services:
   script:
     build: ./app/
