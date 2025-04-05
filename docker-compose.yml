@@ -7,7 +7,7 @@ services:
     networks:
       - node-inter
   weewx:
-    image: weewx:6.1
+    image: instantlinux/weewx:5.1.0
     container_name: weewx
     networks:
       - node-inter
